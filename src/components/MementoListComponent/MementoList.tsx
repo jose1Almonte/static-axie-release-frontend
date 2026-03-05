@@ -1,14 +1,7 @@
-import { useEffect, useState } from "react";
 import MementoCard from "../CardComponent/MementoCard";
 import "./MementoList.css";
 
-type Memento = {
-  image_url: string;
-  marketplace_url: string;
-  name: string;
-  price_usd: number;
-  token_id: string;
-};
+
 
 function MementoList() {
   const mementos = [
@@ -113,9 +106,8 @@ function MementoList() {
         "token_id": "1020847100762815390390123824494327889920"
     }
 ]
-  const [loading, setLoading] = useState(false); // 👈 nuevo estado
 
-  
+  const loading = false
 
   return (
     <div className="memento-list-container">

@@ -1,19 +1,6 @@
-import { useEffect, useState } from "react";
-
-type Axie = {
-  id: string;
-  current_price: number;
-  level: number;
-  min: number;
-  max: number;
-  avg: number;
-  breed: number;
-  marketplace_url: string;
-};
-
-export function useAxies(selectedLevel: string, sortMode: string, axieClass: string, page: number) {
-  const [loading, setLoading] = useState(false);
-  const [lastUpdate, setLastUpdate] = useState<Date | null>(null);
+export function useAxies() {
+  const lastUpdate = null
+  const loading = false
 
   const axies = [
     {

@@ -21,7 +21,7 @@ function AxieList({ initialLevel, initialSort, initialClass }: AxieListProps) {
   const [axieClass, setAxieClass] = useState(initialClass);
   const [page, setPage] = useState(1);
 
-  const { axies, loading, lastUpdate } = useAxies(selectedLevel, sortMode, axieClass, page);
+  const { axies, loading, lastUpdate } = useAxies();
   const elapsed = useElapsedTime(lastUpdate);
 
   const [, setSearchParams] = useSearchParams();

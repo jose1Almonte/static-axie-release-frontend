@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import "../Selectors.css";
 
 type LevelSelectorProps = {
@@ -7,7 +6,6 @@ type LevelSelectorProps = {
 };
 
 function LevelSelector({ selected }: LevelSelectorProps) {
-  const navigate = useNavigate();
 
   const levels = ["Not simulated", ...Array.from({ length: 6 }, (_, i) => `${(i + 1) * 10}`)];
 
