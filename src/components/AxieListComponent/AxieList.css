@@ -1,0 +1,25 @@
+p{
+    color: white;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;          /* permite que las tarjetas bajen a otra fila */
+  justify-content: center;  /* alinea horizontalmente (center, flex-start, flex-end, space-between, space-around) */
+  align-items: center;      /* alinea verticalmente dentro del contenedor */
+  gap: 20px;                /* espacio entre tarjetas */
+  padding: 20px;
+}
+
+.title-card-container {
+    display: flex;
+    flex-direction: column;   /* 🔹 apila los hijos en vertical */
+    align-items: center;      /* 🔹 centra horizontalmente */
+    justify-content: center;  /* 🔹 centra verticalmente si hay altura disponible */
+}
+
+.selectors-box{
+  display: flex;
+  justify-content: space-evenly;
+  gap: 12px; 
+}

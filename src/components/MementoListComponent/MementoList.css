@@ -1,0 +1,17 @@
+.memento-list-container {
+  padding: 20px;
+}
+
+.memento-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  text-align: center;
+  color: #FFF9FB;
+}
+
+.memento-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}

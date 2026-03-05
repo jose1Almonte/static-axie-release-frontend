@@ -1,0 +1,5 @@
+body {
+  background-color: #252627;
+  margin: 0;              /* elimina márgenes por defecto */
+  min-height: 100vh;      /* asegura que cubra toda la pantalla */
+}
