@@ -1,0 +1,2 @@
+# static axie release frontend
+
